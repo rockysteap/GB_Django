@@ -4,7 +4,9 @@
     1. myapp
         http://127.0.0.1:8000/prefix/
         http://127.0.0.1:8000/prefix/about/
-        
+
+    2. myapp2
+        created custom commands in /myapp2/management/commands/*crud to work with cli
 
 #### Seminars
     1. s1_app
