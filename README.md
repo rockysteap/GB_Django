@@ -8,6 +8,20 @@
     2. myapp2
         add custom commands in /myapp2/management/commands/*crud to work with cli
 
+    3. myapp3
+        http://127.0.0.1:8000/les3/hello/
+        http://127.0.0.1:8000/les3/hello2/
+        http://127.0.0.1:8000/les3/posts/<int:year>/
+        http://127.0.0.1:8000/les3/posts/<int:year>/<int:month>/
+        http://127.0.0.1:8000/les3/posts/<int:year>/<int:month>/<slug:slug>/
+        http://127.0.0.1:8000/
+        http://127.0.0.1:8000/les3/if/
+        http://127.0.0.1:8000/les3/for/
+        http://127.0.0.1:8000/les3/index/
+        http://127.0.0.1:8000/les3/about/
+        http://127.0.0.1:8000/les3/author/<int:author_id>/
+        http://127.0.0.1:8000/les3/post/<int:post_id>/
+
 #### Seminars
     1. s1_app
         http://127.0.0.1:8000/seminar1/
