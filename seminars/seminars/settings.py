@@ -42,6 +42,9 @@ INSTALLED_APPS = [
     's1_game_app',
     's2_app1_coin_app',
     's2_app2_article_app',
+    's3_app1_app',
+    's3_app2_game_app',
+    's3_app3_article_app',
 ]
 
 MIDDLEWARE = [
