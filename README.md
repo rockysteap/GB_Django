@@ -43,6 +43,21 @@
         http://127.0.0.1:8000/seminar2/comments_by_author_firstname/<author_firstname>
         http://127.0.0.1:8000/seminar2/comments_by_article_title/<article_title>
 
+    3. s3_app1_app
+        http://127.0.0.1:8000/seminar3/
+        http://127.0.0.1:8000/seminar3/about/
+       
+       s3_app2_game_app 
+        http://127.0.0.1:8000/seminar3/heads_and_tails/
+        http://127.0.0.1:8000/seminar3/roll_the_dice/
+        http://127.0.0.1:8000/seminar3/random_number/
+        
+       s3_app3_article_app
+        http://127.0.0.1:8000/seminar3/articles_by_author_id/<int:author_id>
+        http://127.0.0.1:8000/seminar3/article_by_id/<int:article_id>
+        http://127.0.0.1:8000/seminar3/article_stats_by_id/<int:article_id>
+        
+
 #### Homework
     1. hw1_app
         http://127.0.0.1:8000/homework1/
