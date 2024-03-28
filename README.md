@@ -22,6 +22,12 @@
         http://127.0.0.1:8000/les3/author/<int:author_id>/
         http://127.0.0.1:8000/les3/post/<int:post_id>/
 
+    4. myapp4
+        http://127.0.0.1:8000/les4/user/add/
+        http://127.0.0.1:8000/les4/forms/
+        http://127.0.0.1:8000/les4/user/
+        http://127.0.0.1:8000/les4/upload/
+
 #### Seminars
     1. s1_app
         http://127.0.0.1:8000/seminar1/
