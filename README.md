@@ -62,7 +62,16 @@
         http://127.0.0.1:8000/seminar3/articles_by_author_id/<int:author_id>
         http://127.0.0.1:8000/seminar3/article_by_id/<int:article_id>
         http://127.0.0.1:8000/seminar3/article_stats_by_id/<int:article_id>
-        
+       
+    4. s4_app1_game_app
+        http://127.0.0.1:8000/seminar4/heads_and_tails/
+        http://127.0.0.1:8000/seminar4/roll_the_dice/
+        http://127.0.0.1:8000/seminar4/random_number/
+
+       s4_app2_article_app
+        http://127.0.0.1:8000/seminar4/author/new
+        http://127.0.0.1:8000/seminar4/article/new
+        http://127.0.0.1:8000/seminar4/article_by_id/<int:article_id>
 
 #### Homework
     1. hw1_app
