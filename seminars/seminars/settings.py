@@ -45,6 +45,8 @@ INSTALLED_APPS = [
     's3_app1_app',
     's3_app2_game_app',
     's3_app3_article_app',
+    's4_app1_game_app',
+    's4_app2_article_app',
 ]
 
 MIDDLEWARE = [
@@ -157,9 +159,9 @@ LOGGING = {
             'handlers': ['console', 'file'],
             'level': 'INFO',
         },
-        's1_game_app': {
+        's4_app2_article_app': {
             'handlers': ['console', 'file'],
-            'level': 'INFO',
+            'level': 'DEBUG',
             'propagate': True,
         },
     },

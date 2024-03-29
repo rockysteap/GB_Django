@@ -1,0 +1,8 @@
+{% extends 's4_app2_article_app/base.html' %}
+
+{% block title %}{{title}}{% endblock %}
+
+{% block content %}
+    <h2>{{ title }}</h2>
+    {% include 's4_app2_article_app/form.html' %}
+{% endblock %}

@@ -26,4 +26,7 @@ urlpatterns = [
     path('seminar3/', include('s3_app1_app.urls')),
     path('seminar3/', include('s3_app2_game_app.urls')),
     path('seminar3/', include('s3_app3_article_app.urls')),
+    path('seminar3/', include('s3_app3_article_app.urls')),
+    path('seminar4/', include('s4_app1_game_app.urls')),
+    path('seminar4/', include('s4_app2_article_app.urls')),
 ]
