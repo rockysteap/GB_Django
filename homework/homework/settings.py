@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'hw1_app',
     'hw2_app',
+    'hw3_app',
 ]
 
 MIDDLEWARE = [
@@ -152,9 +153,19 @@ LOGGING = {
             'handlers': ['console', 'file'],
             'level': 'INFO',
         },
-        's1_game_app': {
+        'hw1_app': {
             'handlers': ['console', 'file'],
-            'level': 'INFO',
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'hw2_app': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'hw3_app': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
             'propagate': True,
         },
     },
