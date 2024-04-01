@@ -28,6 +28,9 @@
         http://127.0.0.1:8000/les4/user/
         http://127.0.0.1:8000/les4/upload/
 
+    5. myapp5
+        add admin panel views, search filters and couple users
+
 #### Seminars
     1. s1_app
         http://127.0.0.1:8000/seminar1/
@@ -86,4 +89,3 @@
         http://127.0.0.1:8000/homework3/customer/<int:customer_id>/orders/
 	    http://127.0.0.1:8000/homework3/customer/<int:customer_id>/stats/
 	    http://127.0.0.1:8000/homework3/customer/<int:customer_id>/stats/<int:scope_in_days>/
-        
