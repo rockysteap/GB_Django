@@ -76,6 +76,9 @@
         http://127.0.0.1:8000/seminar4/article/new
         http://127.0.0.1:8000/seminar4/article_by_id/<int:article_id>
 
+    5. s5_admin_app
+        add admin panel configuration for s4_app2_article_app
+
 #### Homework
     1. hw1_app
         http://127.0.0.1:8000/homework1/
