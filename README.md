@@ -31,6 +31,10 @@
     5. myapp5
         add admin panel views, search filters and couple users
 
+    6. myapp6
+        add django-debug-toolbar, compare db queries with profiling
+        prepare project to cloud deploy and deploying to www.pythonanywhere.com
+
 #### Seminars
     1. s1_app
         http://127.0.0.1:8000/seminar1/
