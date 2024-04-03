@@ -96,3 +96,7 @@
         http://127.0.0.1:8000/homework3/customer/<int:customer_id>/orders/
 	    http://127.0.0.1:8000/homework3/customer/<int:customer_id>/stats/
 	    http://127.0.0.1:8000/homework3/customer/<int:customer_id>/stats/<int:scope_in_days>/
+
+    4. hw4_app
+        http://127.0.0.1:8000/homework4/product/new
+        http://127.0.0.1:8000/homework4/product/<int:product_id>/edit
