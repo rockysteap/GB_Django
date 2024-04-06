@@ -181,5 +181,10 @@ LOGGING = {
             'level': 'DEBUG',
             'propagate': True,
         },
+        'hw5_app': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
     },
 }
