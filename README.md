@@ -100,3 +100,6 @@
     4. hw4_app
         http://127.0.0.1:8000/homework4/product/new
         http://127.0.0.1:8000/homework4/product/<int:product_id>/edit
+
+    5. hw5_app
+        add admin panel configuration for hw4_app models
