@@ -24,7 +24,7 @@ urlpatterns = [
     path('homework1/', include('hw1_app.urls')),
     path('homework2/', include('hw2_app.urls')),
     path('homework3/', include('hw3_app.urls')),
-    path('homework4/', include('hw4_app.urls')),
+    path('', include('hw4_app.urls')),
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
