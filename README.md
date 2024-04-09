@@ -103,3 +103,5 @@
 
     5. hw5_app
         add admin panel configuration for hw4_app models
+
+    6. prepare project to cloud deploy and deploying to www.pythonanywhere.com
